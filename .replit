@@ -1,2 +1,2 @@
 language = "python"
-run = "python main.py"
+run = "python eletronic_distribution/main.py"
