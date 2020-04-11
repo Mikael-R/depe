@@ -14,7 +14,7 @@ O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância
 ![diagrama](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/diagrama.png)
 
 ## 🤔 Como usar
-Para utilizar o programa é muito simples, você pode executá-lo através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it** que está localizado no início deste documento.<br>
+Para executar o programa é muito simples, através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it**, localizado no início deste documento, você será aberta uma página web com a aplicação pronta.<br>
 <br>
 Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalados na sua maquina e a **URL** do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
@@ -37,5 +37,5 @@ Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md
 * [Matemática Rio com Prof. Rafael Procopio ](https://www.youtube.com/user/matematicario)
 
 ### 💼 Autor
-| [<img src="https://user-images.githubusercontent.com/60241602/79053151-76f0c400-7c11-11ea-8f13-9b2510e0011f.jpeg" width=100><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
+| [<img src="https://user-images.githubusercontent.com/60241602/79053151-76f0c400-7c11-11ea-8f13-9b2510e0011f.jpeg" width=115><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
 | :---: |
