@@ -23,7 +23,7 @@ cd eletronic_distribution
 python main.py
 ```
 ### 💼 Autor
-| [<img src="https://user-images.githubusercontent.com/60241602/79053151-76f0c400-7c11-11ea-8f13-9b2510e0011f.jpeg" width=75><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
+| [<img src="https://user-images.githubusercontent.com/60241602/79053151-76f0c400-7c11-11ea-8f13-9b2510e0011f.jpeg" width=100><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
 | :---: |
 
 
