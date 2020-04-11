@@ -22,13 +22,9 @@ git clone https://github.com/Mikael-R/eletronic_distribution
 cd eletronic_distribution
 python main.py
 ```
-### 💼 Autor
-| [<img src="https://user-images.githubusercontent.com/60241602/79053151-76f0c400-7c11-11ea-8f13-9b2510e0011f.jpeg" width=100><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
-| :---: |
-
 
 ### 📜 Licença
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
+Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
 
 ### 🏆 Agradecimentos
 * [Curso em Video](https://www.youtube.com/user/cursosemvideo)
@@ -39,3 +35,7 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 * [DevMedia](https://www.youtube.com/channel/UClBrpNsTEFLbZDDMW1xiOaQ)
 * [Programador Sagaz](https://www.youtube.com/channel/UCyHOBY6IDZF9zOKJPou2Rgg)
 * [Matemática Rio com Prof. Rafael Procopio ](https://www.youtube.com/user/matematicario)
+
+### 💼 Autor
+| [<img src="https://user-images.githubusercontent.com/60241602/79053151-76f0c400-7c11-11ea-8f13-9b2510e0011f.jpeg" width=100><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
+| :---: |
