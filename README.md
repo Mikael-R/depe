@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://eletronicdistribution-1.mikael32.repl.run/)
+[![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://eletronicdistribution.mikael32.repl.run/)
 
 # Distribuição eletrônica
 O programa calcula a distribuição eletrônica em níveis e em subníveis dos elétrons de um átomo a partir de seu número atómico(z).<br>

@@ -1,35 +1,18 @@
-from os import system as terminal
-from platform import system as sistema_operacional
-
-########## DISTRIBUIÇÃO ELETRÔNICA EM SUBNÍVEIS ##########
-'''
-1s2
-2s2  2p6
-3s2  3p6  3d10
-4s2  4p6  4d10  4f14
-5s2  5p6  5d10  5f14
-6s2  6p6  6d10
-7s2  7p6
-'''
-
-if sistema_operacional() == 'Windows':
-    terminal('cls')
-else:
-    terminal('clear')
-
 s1 = s2 = p2 = s3 = p3 = s4 = d3 = p4 = s5 = d4 = p5 = s6 = f4 = d5 = p6 = s7 = f5 = d6 = p7 = 0
 
 print('''
-=========== OPÇÕES ===========
-[1] Distribuição em níveis
-[2] Distribuição em subníveis
-==============================
+ _________________________________
+|_____________ MENU ______________|
+| [ 1 ] Distribuição em níveis    |
+| [ 2 ] Distribuição em subníveis |
+| [ 3 ] Distribuição em ambas     |
+|_________________________________|
       ''')
 
-visualizar = input('-> Sua opção: ')
-while visualizar != '1' and visualizar != '2':
+menu = input('-> Sua opção: ')
+while menu != '1' and menu != '2' and menu != '3':
     print('-> Opção inválida, digite novamente.')
-    visualizar = input('\n-> Sua opção: ')
+    menu = input('\n-> Sua opção: ')
 
 z = input('\n-> Número atômico: ')
 while z.isnumeric() == False or int(z) > 118 or int(z) <= 0:
@@ -37,7 +20,7 @@ while z.isnumeric() == False or int(z) > 118 or int(z) <= 0:
     z = input('\n-> Número atômico: ')
 z = int(z)
 
-########## 1S2 ##########
+########## 1s2 ##########
 while True:
     if z == 0 or s1 == 2:
         break
@@ -152,14 +135,15 @@ while True:
     p7 += 1
     z -= 1
 
-if visualizar == '1':
-    k = s1
-    l = s2 + p2
-    m = s3 + p3 + d3
-    n = s4 + p4 + d4 + f4
-    o = s5 + p5 + d5 + f5
-    p = s6 + p6 + d6
-    q = s7 + p7
+k = s1
+l = s2 + p2
+m = s3 + p3 + d3
+n = s4 + p4 + d4 + f4
+o = s5 + p5 + d5 + f5
+p = s6 + p6 + d6
+q = s7 + p7
+
+if menu == '1':
     print(f'''
 =======================
         K = {k}
@@ -171,7 +155,7 @@ if visualizar == '1':
         Q = {q}
 =======================
           ''')
-else:
+if menu == '2':
     print(f'''
 ==============================
     1s{s1}
@@ -183,3 +167,25 @@ else:
     7s{s7}  7p{p7}
 ==============================
         ''')
+if menu == '3':
+  print(f'''
+============================
+== Distribuição em níveis ==
+        K = {k}
+        L = {l}
+        M = {m}
+        N = {n}
+        O = {o}
+        P = {p}
+        Q = {q}
+=============================
+= Distribuição em subníveis =
+    1s{s1}
+    2s{s2}  2p{p2}
+    3s{s3}  3p{p3}  3d{d3}
+    4s{s4}  4p{p4}  4d{d4}  4f{f4}
+    5s{s5}  5p{p5}  5d{d5}  5f{f5}
+    6s{s6}  6p{p6}  6d{d6}
+    7s{s7}  7p{p7}
+=============================
+          ''')
