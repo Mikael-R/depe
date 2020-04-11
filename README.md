@@ -1,7 +1,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://eletronicdistribution.mikael32.repl.run/)
 
 # ⚡ Distribuição eletrônica
-O programa calcula a distribuição eletrônica em níveis e em subníveis dos elétrons de um átomo a partir de seu número atómico(z).<br>
+O programa calcula a distribuição eletrônica tanto em níveis quanto em subníveis dos elétrons de um átomo a partir do seu número atómico(Ƶ).<br>
 Quem sabe no futuro apareça outras funções...
 
 ## ☣️ Tabela periódica
@@ -9,7 +9,7 @@ A tabela periódica abaixo contém 118 elementos químicos e neste presente mome
 ![tabela](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/tabela.png)
 
 ## 📈 Diagrama de Linus Pauling ou Princípio de Aufbau
-O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância para este projeto pois foi a base para o cálculo do programa, você pode ver este [tópico da wikipedia](https://pt.wikipedia.org/wiki/Princípio_de_Aufbau) dizendo como funciona e como utilizar o diagrama.
+O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância para este projeto pois foi a base para a realização dos cálculos, você pode ver este [tópico da wikipedia](https://pt.wikipedia.org/wiki/Princípio_de_Aufbau) dizendo como funciona e como utilizar o diagrama.
 
 ![diagrama](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/diagrama.png)
 
