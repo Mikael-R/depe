@@ -1,5 +1,4 @@
-[![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://repl.it/github/Mikael-R/eletronic_distribution)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Mikael-R/distribution_eletronic) 
+[![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://eletronicdistribution-1.mikael32.repl.run/)
 
 # Distribuição eletrônica
 O programa calcula a distribuição eletrônica em níveis e em subníveis dos elétrons de um átomo a partir de seu número atómico(z).<br>
@@ -16,8 +15,6 @@ O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância
 
 ## Como usar
 Para utilizar o programa é muito simples, você pode executá-lo através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it** que está localizado no início deste documento.<br>
-<br>
-Caso queira contribuir com o projeto, um botão azul intitulado como **Ready-to-Code**, também no início deste documento, lhe redirecionará para um ambiente de trabalho gráfico virtual.<br>
 <br>
 Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalados na sua maquina e a **URL** do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
