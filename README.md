@@ -8,7 +8,7 @@ Quem sabe no futuro apareça outras funções...
 A tabela periódica abaixo contém 118 elementos químicos e neste presente momento(2020) é a mais atual.
 ![tabela](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/tabela.png)
 
-## 📉 Diagrama de Linus Pauling ou Princípio de Aufbau
+## 📈 Diagrama de Linus Pauling ou Princípio de Aufbau
 O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância para este projeto pois foi a base para o cálculo do programa, você pode ver este [tópico da wikipedia](https://pt.wikipedia.org/wiki/Princípio_de_Aufbau) dizendo como funciona e como utilizar o diagrama.
 
 ![diagrama](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/diagrama.png)
