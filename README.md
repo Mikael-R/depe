@@ -10,11 +10,11 @@ A tabela periódica abaixo contém 118 elementos químicos e neste presente mome
 
 ## 📈 Diagrama de Linus Pauling ou Princípio de Aufbau
 O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância para este projeto pois foi a base para a realização dos cálculos, você pode ver este [tópico da wikipedia](https://pt.wikipedia.org/wiki/Princípio_de_Aufbau) dizendo como funciona e como utilizar o diagrama.
-
 ![diagrama](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/diagrama.png)
 
 ## 🤔 Como usar
 Para executar o programa é muito simples, através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it**, localizado no início deste documento, será aberta uma página web com a aplicação em funcionamento.<br>
+![Screenshot_20200411-180321](https://user-images.githubusercontent.com/60241602/79054915-5a5b8880-7c1f-11ea-9d51-1f39dc6d663a.png)
 <br>
 Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalados na sua maquina e a **URL** do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
