@@ -14,7 +14,7 @@ O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância
 ![diagrama](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/diagrama.png)
 
 ## 🤔 Como usar
-Para executar o programa é muito simples, através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it**, localizado no início deste documento, você será aberta uma página web com a aplicação pronta.<br>
+Para executar o programa é muito simples, através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it**, localizado no início deste documento, será aberta uma página web com a aplicação em funcionamento.<br>
 <br>
 Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalados na sua maquina e a **URL** do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
@@ -26,7 +26,7 @@ python main.py
 ### 📜 Licença
 Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
 
-### 🏆 Agradecimentos
+### 🔖 Agradecimentos
 * [Curso em Video](https://www.youtube.com/user/cursosemvideo)
 * [Dev Aprender](https://www.youtube.com/channel/UCm63tB8wsKOVvxoU4iMpS2A)
 * [Felipe Deschamps](https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw)
