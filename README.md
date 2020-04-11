@@ -2,7 +2,7 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Mikael-R/distribution_eletronic) 
 
 # Distribuição eletrônica
-O programa calcula a distribuição eletrônica em níveis e em subníveis dos elétrons de um átomo a partir de seu número atómico(z).
+O programa calcula a distribuição eletrônica em níveis e em subníveis dos elétrons de um átomo a partir de seu número atómico(z).<br>
 Quem sabe no futuro apareça outras funções...
 
 
@@ -15,11 +15,11 @@ O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância
 ![diagrama](https://github.com/Mikael-R/eletronic_distribution/blob/master/template/diagrama.png)
 
 ## Como usar
-Para utilizar o programa é muito simples, você pode executá-lo através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it** que está localizado no início deste documento<br>
+Para utilizar o programa é muito simples, você pode executá-lo através do seu navegador, clicando no botão cinza intitulado como **Run on Repl.it** que está localizado no início deste documento.<br>
 <br>
-Caso queira contribuir com o projeto, um botão azul intitulado como **Ready-to-Code**, também no início deste documento, lhe redirecionar para um ambiente de trabalho gráfico virtual.<br>
+Caso queira contribuir com o projeto, um botão azul intitulado como **Ready-to-Code**, também no início deste documento, lhe redirecionará para um ambiente de trabalho gráfico virtual.<br>
 <br>
-Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalado na sua maquina e a **URL** do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
+Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalados na sua maquina e a **URL** do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
 git clone https://github.com/Mikael-R/eletronic_distribution
 cd eletronic_distribution
@@ -29,7 +29,7 @@ python main.py
 * **Mikael Rolim de Aquino** - *Trabalho inicial* - [Mikael-R](https://github.com/Mikael-R)
 
 ### Licença
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
 
 ### Agradecimentos
 * **Fontes de conhecimento**
