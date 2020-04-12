@@ -1,4 +1,4 @@
-s1 = s2 = p2 = s3 = p3 = s4 = d3 = p4 = s5 = d4 = p5 = s6 = f4 = d5 = p6 = s7 = f5 = d6 = p7 = 0
+from lib import *
 
 print('''
  _________________________________
@@ -6,186 +6,69 @@ print('''
 | [ 1 ] Distribuição em níveis    |
 | [ 2 ] Distribuição em subníveis |
 | [ 3 ] Distribuição em ambas     |
+| [ 4 ] Pesquisar elemento        |
 |_________________________________|
       ''')
 
-menu = input('-> Sua opção: ')
-while menu != '1' and menu != '2' and menu != '3':
-    print('-> Opção inválida, digite novamente.')
-    menu = input('\n-> Sua opção: ')
+menu = input('❱ Sua opção: ')
+while menu != '1' and menu != '2' and menu != '3' and menu != '4':
+    print('❱ Opção inválida, digite novamente.')
+    menu = input('❱ Sua opção: ')
 
-z = input('\n-> Número atômico: ')
-while z.isnumeric() == False or int(z) > 118 or int(z) <= 0:
-    print('-> Os números atômicos vão de 1 até 118, digite novamente.')
-    z = input('\n-> Número atômico: ')
-z = int(z)
+elemento = pesquisar(input('\n❱ Digite o número atômico, a sigla ou o nome do elemento químico.\n❱ ').strip().title())
+while elemento == None:
+    print('❱ Este elemento químico não consta na tabela periódica, digite novamente.')
+    elemento = pesquisar(input('\n❱ Digite o número atômico, a sigla ou o nome do elemento químico.\n❱ ').strip().title())
 
-########## 1s2 ##########
-while True:
-    if z == 0 or s1 == 2:
-        break
-    s1 += 1
-    z -= 1
-########## 2s2 ##########
-while True:
-    if z == 0 or s2 == 2:
-        break
-    s2 += 1
-    z -= 1
-########## 2p6 ##########
-while True:
-    if z == 0 or p2 == 6:
-        break
-    p2 += 1
-    z -= 1
-########## 3s2 ##########
-while True:
-    if z == 0 or s3 == 2:
-        break
-    s3 += 1
-    z -= 1
-########## 3p6 ##########
-while True:
-    if z == 0 or p3 == 6:
-        break
-    p3 += 1
-    z -= 1
-########## 4s2 ##########
-while True:
-    if z == 0 or s4 == 2:
-        break
-    s4 += 1
-    z -= 1
-########## 3d10 ##########
-while True:
-    if z == 0 or d3 == 10:
-        break
-    d3 += 1
-    z -= 1
-########## 4p6 ##########
-while True:
-    if z == 0 or p4 == 6:
-        break
-    p4 += 1
-    z -= 1
-########## 5s2 ##########
-while True:
-    if z == 0 or s5 == 2:
-        break
-    s5 += 1
-    z -= 1
-########## 4d10 ##########
-while True:
-    if z == 0 or d4 == 10:
-        break
-    d4 += 1
-    z -= 1
-########## 5p6 ##########
-while True:
-    if z == 0 or p5 == 6:
-        break
-    p5 += 1
-    z -= 1
-########## 6s2 ##########
-while True:
-    if z == 0 or s6 == 2:
-        break
-    s6 += 1
-    z -= 1
-########## 4f14 ##########
-while True:
-    if z == 0 or f4 == 14:
-        break
-    f4 += 1
-    z-= 1
-########## 5d10 ##########
-while True:
-    if z == 0 or d5 == 10:
-        break
-    d5 += 1
-    z -= 1
-########## 6p6 ##########
-while True:
-    if z == 0 or p6 == 6:
-        break
-    p6 += 1
-    z -= 1
-########## 7s2 ##########
-while True:
-    if z == 0 or s7 == 2:
-        break
-    s7 += 1
-    z -= 1
-########## 5f14 ##########
-while True:
-    if z == 0 or f5 == 14:
-        break
-    f5 += 1
-    z -= 1
-########## 6d10 ##########
-while True:
-    if z == 0 or d6 == 10:
-        break
-    d6 += 1
-    z -= 1
-########## 7p6 ##########
-while True:
-    if z == 0 or p7 == 6:
-        break
-    p7 += 1
-    z -= 1
-
-k = s1
-l = s2 + p2
-m = s3 + p3 + d3
-n = s4 + p4 + d4 + f4
-o = s5 + p5 + d5 + f5
-p = s6 + p6 + d6
-q = s7 + p7
+diagrama_dicionario = distribuir(elemento[0])
 
 if menu == '1':
     print(f'''
 =======================
-        K = {k}
-        L = {l}
-        M = {m}
-        N = {n}
-        O = {o}
-        P = {p}
-        Q = {q}
+        K = {diagrama_dicionario["1s"]}
+        L = {diagrama_dicionario["2s"] + diagrama_dicionario["2p"]}
+        M = {diagrama_dicionario["3s"] + diagrama_dicionario["3p"] + diagrama_dicionario["3d"]}
+        N = {diagrama_dicionario["4s"] + diagrama_dicionario["4p"] + diagrama_dicionario["4d"] + diagrama_dicionario["4f"]}
+        O = {diagrama_dicionario["5s"] + diagrama_dicionario["5p"] + diagrama_dicionario["5d"] + diagrama_dicionario["5f"]}
+        P = {diagrama_dicionario["6s"] + diagrama_dicionario["6p"] + diagrama_dicionario["6d"]}
+        Q = {diagrama_dicionario["7s"] + diagrama_dicionario["7p"]}
 =======================
           ''')
 if menu == '2':
     print(f'''
 ==============================
-    1s{s1}
-    2s{s2}  2p{p2}
-    3s{s3}  3p{p3}  3d{d3}
-    4s{s4}  4p{p4}  4d{d4}  4f{f4}
-    5s{s5}  5p{p5}  5d{d5}  5f{f5}
-    6s{s6}  6p{p6}  6d{d6}
-    7s{s7}  7p{p7}
+    1s{diagrama_dicionario["1s"]}
+    2s{diagrama_dicionario["2s"]}  2p{diagrama_dicionario["2p"]}
+    3s{diagrama_dicionario["3s"]}  3p{diagrama_dicionario["3p"]}  3d{diagrama_dicionario["3d"]}
+    4s{diagrama_dicionario["4s"]}  4p{diagrama_dicionario["4p"]}  4d{diagrama_dicionario["4d"]}  4f{diagrama_dicionario["4f"]}
+    5s{diagrama_dicionario["5s"]}  5p{diagrama_dicionario["5p"]}  5d{diagrama_dicionario["5d"]}  5f{diagrama_dicionario["5f"]}
+    6s{diagrama_dicionario["6s"]}  6p{diagrama_dicionario["6p"]}  6d{diagrama_dicionario["6d"]}
+    7s{diagrama_dicionario["7s"]}  7p{diagrama_dicionario["7p"]}
 ==============================
         ''')
 if menu == '3':
   print(f'''
 ============================
 == Distribuição em níveis ==
-        K = {k}
-        L = {l}
-        M = {m}
-        N = {n}
-        O = {o}
-        P = {p}
-        Q = {q}
+        K = {diagrama_dicionario["1s"]}
+        L = {diagrama_dicionario["2s"] + diagrama_dicionario["2p"]}
+        M = {diagrama_dicionario["3s"] + diagrama_dicionario["3p"] + diagrama_dicionario["3d"]}
+        N = {diagrama_dicionario["4s"] + diagrama_dicionario["4p"] + diagrama_dicionario["4d"] + diagrama_dicionario["4f"]}
+        O = {diagrama_dicionario["5s"] + diagrama_dicionario["5p"] + diagrama_dicionario["5d"] + diagrama_dicionario["5f"]}
+        P = {diagrama_dicionario["6s"] + diagrama_dicionario["6p"] + diagrama_dicionario["6d"]}
+        Q = {diagrama_dicionario["7s"] + diagrama_dicionario["7p"]}
 =============================
 = Distribuição em subníveis =
-    1s{s1}
-    2s{s2}  2p{p2}
-    3s{s3}  3p{p3}  3d{d3}
-    4s{s4}  4p{p4}  4d{d4}  4f{f4}
-    5s{s5}  5p{p5}  5d{d5}  5f{f5}
-    6s{s6}  6p{p6}  6d{d6}
-    7s{s7}  7p{p7}
+    1s{diagrama_dicionario["1s"]}
+    2s{diagrama_dicionario["2s"]}  2p{diagrama_dicionario["2p"]}
+    3s{diagrama_dicionario["3s"]}  3p{diagrama_dicionario["3p"]}  3d{diagrama_dicionario["3d"]}
+    4s{diagrama_dicionario["4s"]}  4p{diagrama_dicionario["4p"]}  4d{diagrama_dicionario["4d"]}  4f{diagrama_dicionario["4f"]}
+    5s{diagrama_dicionario["5s"]}  5p{diagrama_dicionario["5p"]}  5d{diagrama_dicionario["5d"]}  5f{diagrama_dicionario["5f"]}
+    6s{diagrama_dicionario["6s"]}  6p{diagrama_dicionario["6p"]}  6d{diagrama_dicionario["6d"]}
+    7s{diagrama_dicionario["7s"]}  7p{diagrama_dicionario["7p"]}
 =============================
           ''')
+if menu == '4':
+    print('\n=======================')
+    print(f'• Número atômico: {elemento[0]}\n• Elemento: {elemento[1]}\n• Sigla: {elemento[2]}')
+    print('=======================')
