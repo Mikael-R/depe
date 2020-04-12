@@ -4,7 +4,7 @@
 # 🤖 Depe #
 O projeto recebeu esse nome por conta das siglas das palavras que o compõe.<br>
 <br>
-É um projeto de código aberto, feito para ajudar você e outras pessoas que precisam aprender química ou que tem dificuldade na matéria.<br>
+É um projeto de código aberto, feito para ajudar pessoas que precisam aprender química ou que tem dificuldade na matéria.<br>
 Pode ser utilizado em qualquer hora, em qualquer lugar, tendo você internet, ou não, basta clonar uma cópia do repositório.<br>
 <br>
 Abaixo vemos o Depe trabalhando para calcular as contas para você.
