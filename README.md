@@ -11,7 +11,7 @@ Abaixo vemos o Depe trabalhando para calcular as contas para você.
 
 ![frank](https://user-images.githubusercontent.com/60241602/79079249-56456e80-7ce4-11ea-9c24-db6a6120ccfe.gif)
 
-## ⚡ Distribuição eletrônica e Pesquisa de Elementos 🔍 ##
+## ⚡ Distribuição eletrônica e pesquisa de elementos 🔍 ##
 O Depe calcula a distribuição eletrônica tanto em níveis quanto em subníveis dos elétrons de um átomo a partir do seu número atómico(Ƶ), sigla ou nome do elemento.<br>
 Também é possível pesquisar elementos, por exemplo, você tem o número atômico 26, mas não sabe qual elemento ele representa?<br>
 O Depe ajuda você nisso também, basta selecionar a opção desejada do menu totalmente interativo e se divertir aprendendo.
