@@ -1,17 +1,27 @@
+[![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://eletronicdistribution.mikael32.repl.run/)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Mikael-R/eletronic_distribution) 
 
-[![Run on Repl.it](https://repl.it/badge/github/Mikael-R/eletronic_distribution)](https://eletronicdistribution.mikael32.repl.run/)
+# Depe
+O projeto recebeu esse nome por conta das siglas das palavras que o compõe.<br>
+<br>
+É um projeto open source(código aberto), feito para ajudar você e outras pessoas que precisam aprender química ou que tem dificuldade na matéria.<br>
+Pode ser utilizado em qualquer hora, em qualquer lugar, tendo você internet, ou não, basta clonar uma cópia do repositório.<br>
+<br>
+Abaixo vemos o Depe trabalhando para calcular as contas para você.
+![frank](https://user-images.githubusercontent.com/60241602/79079249-56456e80-7ce4-11ea-9c24-db6a6120ccfe.gif)
 
-# ⚡ Distribuição eletrônica
-O programa calcula a distribuição eletrônica tanto em níveis quanto em subníveis dos elétrons de um átomo a partir do seu número atómico(Ƶ).<br>
-Quem sabe no futuro apareça outras funções...
+## ⚡ Distribuição eletrônica e Pesquisa de Elementos
+O Depe calcula a distribuição eletrônica tanto em níveis quanto em subníveis dos elétrons de um átomo a partir do seu número atómico(Ƶ), sigla ou nome do elemento.<br>
+Tabém é possível pesquisar elementos, por exemplo, você tem o número atômico 26, mas não sabe qual elemento ele representa?<br>
+O Depe ajuda você nisso também, basta selecionar a opção desejada do menu totalmente interativo e se divertir aprendendo.
 
 ## ☣️ Tabela periódica
-A tabela periódica abaixo contém 118 elementos químicos e neste presente momento(2020) é a mais atual.
+A tabela periódica abaixo contém 118 elementos químicos e neste presente momento(2020) é a mais atual.<br>
+Foi utilizada para o desenvolvimento do dicionário que neste projeto é a base para a pesquisa dos elementos químicos. Caso tenha interesse no [dicionário](https://gist.github.com/Mikael-R/4b45d0d81ff7a0d7fe65b47677a42ae7), ele está hospedado no Gist e pode ser usado livremente, com os devidos créditos.
 ![tabela](https://user-images.githubusercontent.com/60241602/79056834-c5618b00-7c30-11ea-8e28-d6ba1eaefa4a.png)
 
 ## 📈 Diagrama de Linus Pauling ou Princípio de Aufbau
-O diagrama de Linus Pauling ou Princípio de Aufbau, foi de estrema importância para este projeto pois foi a base para a realização dos cálculos, você pode ver este [tópico da wikipedia](https://pt.wikipedia.org/wiki/Princípio_de_Aufbau) dizendo como funciona e como utilizar o diagrama.
+O diagrama de Linus Pauling ou Princípio de Aufbau, foi utilizado para a realização dos cálculos, você pode ver este [tópico da wikipedia](https://pt.wikipedia.org/wiki/Princípio_de_Aufbau) dizendo como funciona e como utilizar o diagrama.
 ![diagrama](https://user-images.githubusercontent.com/60241602/79056833-c4c8f480-7c30-11ea-86ba-94d51463c000.png)
 
 ## 🤔 Como usar
