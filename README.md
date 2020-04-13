@@ -34,8 +34,8 @@ Para executar o Depe é muito simples, através do seu navegador, clicando no bo
 <br>
 Mas você também pode clonar o repositório para seu computador, com o Git e o Python instalados na sua maquina e a [URL](https://github.com/Mikael-R/eletronic_distribution) do projeto em mãos, crie em algum lugar do seu pc uma pasta para clonarmos uma cópia do repositório, dentro dela abra o cmd ou powershell e digite os comandos abaixo:
 ```
-git clone https://github.com/Mikael-R/eletronic_distribution
-cd eletronic_distribution
+git clone https://github.com/Mikael-R/Depe
+cd Depe
 python main.py
 ```
 
