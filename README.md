@@ -2,10 +2,9 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Mikael-R/eletronic_distribution) 
 
 # 🤖 Depe #
-O projeto recebeu esse nome por conta das siglas das palavras que o compõe.<br>
+As iniciais de **D**istribuição **E**letrônica e **P**esquisa de **E**lementos deram origem inicialmente ao nome do projeto.<br>
 <br>
-É um projeto de código aberto, feito para ajudar pessoas que precisam aprender química ou que tem dificuldade na matéria.<br>
-Pode ser utilizado em qualquer hora, em qualquer lugar, tendo você internet, ou não, basta clonar uma cópia do repositório.<br>
+Com o código aberto, feito para ajudar pessoas que precisam aprender química ou que tem dificuldade na matéria, pode ser utilizado em qualquer hora, em qualquer lugar, tendo você internet, ou não, basta clonar uma cópia do repositório.<br>
 <br>
 O Depe trabalha para calcular tudo para você.
 
