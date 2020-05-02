@@ -52,5 +52,5 @@ Este projeto está licenciado sob a licença MIT, consulte o arquivo [LICENSE.md
 * [Matemática Rio com Prof. Rafael Procopio ](https://www.youtube.com/user/matematicario)
 
 ### 💼 Autor ###
-| [<img src="https://user-images.githubusercontent.com/60241602/79056829-c397c780-7c30-11ea-836c-706444ae4f5f.png" width=115><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
+| [<img src="https://user-images.githubusercontent.com/60241602/80879315-3b866a00-8c92-11ea-8ec7-2d722eb8e845.png" width=115><br><sub>@Mikael-R</sub>](https://github.com/Mikael-R) |
 | :---: |
